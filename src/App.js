@@ -7,7 +7,7 @@ config.autoAddCss = false;
 
 const App = () => {
   return (
-    <div>
+    <div /*{className="grid grid-rows-none md:grid-cols-2 md:grid md:divide-x-2"} */>
       <Left />
       <Right />
     </div>

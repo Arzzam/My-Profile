@@ -2,6 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#right a {
+  color: #000;
+}
+
+#right h4,
+#right .content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#right h4 {
+  width: 20%;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #2a54f5;
+  background-image: -webkit-linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-image: linear-gradient(45deg, #2a54f5 0%, #33e5bb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .right h4,
+  .right .content {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+}
+.left-inner {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 24em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/*
 html, body {
   font-family: Helvetica;
   margin: 0;
@@ -34,7 +92,7 @@ a {
 }
 
 .left .bg-img {
-  background: url('/src/assets/profile.png') center center no-repeat;
+  background: url('../img/headshot1-bw.png') center center no-repeat; 
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -61,7 +119,6 @@ a {
 .right-inner {
   padding: 50px;
 }
-
 
 @media screen and (max-width: 400px) {
   .left-inner,
@@ -93,11 +150,7 @@ a {
   color: #fff;
   width: 90%;
   margin: 0 auto;
-  margin-top: 65%;
-}
-
-.left .subtext{
-  padding: 0 20% 0 20%;
+  margin-top: 50%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -152,7 +205,7 @@ a {
   background-color: #2A54F5;
   background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -325,6 +378,8 @@ a {
   background-color: #2A54F5;
   background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+*/
