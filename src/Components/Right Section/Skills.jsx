@@ -20,7 +20,6 @@ const Skills = () => {
           <strong className="text-base font-bold uppercase last-of-type:mb-0">Tools: </strong>
           <span>
             Git, Github, Photoshop, Illustrator, Canva, InDesign(Beginner)
-            InDesign
           </span>
         </div>
       </Content>
