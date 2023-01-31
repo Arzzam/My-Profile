@@ -1,19 +1,18 @@
 import React from "react";
-// import ProfileImage from "../../assets/profile.png";
+import ProfileImage from "../../assets/profile.png";
 
 const ProfileDetails = () => {
   return (
-    <div className="absolute top-0 bottom-0 left-0 right-0 flex-none mx-auto my-0 mt-35% info w-90 md:mt-76 ">
+    <div className="absolute top-0 bottom-0 left-0 right-0 flex-none mx-auto my-0 info w-90 ">
       <div className="flex flex-wrap justify-center h-40">
-        {/* <img src={ProfileImage} alt="" className="rounded-full h-4/5" /> */}
+        <img src={ProfileImage} alt="" className="rounded-full h-4/5" />
       </div>
       <div className="font-medium name text-zinc-100">
-        {/* Hey, I'm Nafil Arzzam */}
-        Hey, I'm xyz
+        Hey, I'm Nafil Arzzam
       </div>
       <div className="text-zinc-200 subtext">
         A person interested in designing and developing. <br /> Self Learner
-        {/* Living in Tirunelveli,India.  */}
+        Living in Tirunelveli,India. 
         <br /> Looking for oppertunities.
       </div>
       <div className="mt-8 social-links text-zinc-300">
