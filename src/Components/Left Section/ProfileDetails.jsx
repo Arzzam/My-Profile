@@ -12,7 +12,7 @@ const ProfileDetails = () => {
         Hey, I'm Nafil Arzzam
       </div>
       <div className="text-zinc-200 subtext">
-        A person interested in designing and developing. <br /> Self Learner
+        A person interested in designing and developing. <br /> Self Learner <br />
         Living in Tirunelveli, India. 
         <br /> Looking for oppertunities.
       </div>

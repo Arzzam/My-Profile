@@ -1,20 +1,19 @@
-import React from "react";
-import Content from "./Content";
+import React from 'react'
 
-const Education = () => {
+const Experience =() => {
   return (
     <div className="text-base education">
-      <h4 className="w-20 sm:w-full">Education</h4>
+      <h4 className="w-20 sm:w-full">Experience</h4>
       <Content>
         <div className="text-base font-bold university">
-            Anna University
+          Full stack Intern
         </div>
         <div className="mb-2 italic font-bold college">
-          <a href="https://scadengineering.ac.in/" target="_blank">
-            SCAD College of Engineering and Technology
+          <a href="/" target="_blank">
+            XBI4
           </a>
           <br />
-          Tirunelveli, Tamil Nadu
+          Tenkasi, Tamil Nadu
         </div>
         <div className="text-base branch">
           <strong className="font-semibold">Branch:</strong> Computer Science
@@ -30,7 +29,5 @@ const Education = () => {
         </div>
       </Content>
     </div>
-  );
-};
-
-export default Education;
+  )
+}

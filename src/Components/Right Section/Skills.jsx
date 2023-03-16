@@ -4,7 +4,7 @@ import Content from "./Content";
 const Skills = () => {
   return (
     <div className="skills">
-      <h4>Skills</h4>
+      <h4 className="w-20 sm:w-full">Skills</h4>
       <Content >
         <div className="mb-2 skill-category">
           <strong className="text-base font-bold uppercase last-of-type:mb-0">Languages: </strong>
