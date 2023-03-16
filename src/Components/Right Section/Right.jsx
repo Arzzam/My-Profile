@@ -2,7 +2,7 @@ import React from "react";
 import Education from "./Education";
 import Intro from "./Intro";
 import Projects from "./Projects";
-import Resume from "./Resume";
+// import Resume from "./Resume";
 import Skills from "./Skills";
 
 const Right = () => {
@@ -13,7 +13,7 @@ const Right = () => {
         <Skills />
         <Education />
         <Projects />
-        <Resume />
+        {/* <Resume /> */}
       </div>
     </div>
   );
