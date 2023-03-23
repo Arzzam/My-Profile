@@ -6,7 +6,7 @@ module.exports = {
       sm: { max: "400px" },
       // => @media (max-width: 400px) { ... }
 
-      md: { max: "1000px" },
+      md: { max: "820px" },
       // => @media (max-width: 1000px) { ... }
     },
     extend: {
