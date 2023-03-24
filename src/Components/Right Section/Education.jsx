@@ -4,7 +4,7 @@ import Content from "./Content";
 const Education = () => {
   return (
     <div className="text-base education">
-      <h4 className="w-20 sm:w-full">Education</h4>
+      <h4 className="w-24 sm:w-full">Education</h4>
       <Content>
         <div className="text-base font-bold university">
             Anna University
@@ -21,12 +21,12 @@ const Education = () => {
           and Engineering
         </div>
         <div className="text-base study-abroad">
-          <strong className="font-semibold">CGPA: 8.21</strong> (upto 6th
+          <strong className="font-semibold">CGPA: 8.17</strong> (upto 7th
           Semester)
         </div>
         <div className="text-base grad-date">
-          <strong className="font-semibold">Expected Graduation:</strong> May
-          2023
+          <strong className="font-semibold">Expected Graduation:</strong> 
+          <span>May 2023</span>
         </div>
       </Content>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Education from "./Education";
+import Experience from "./Experience";
 import Intro from "./Intro";
 import Projects from "./Projects";
 // import Resume from "./Resume";
@@ -12,6 +13,7 @@ const Right = () => {
         <Intro />
         <Skills />
         <Education />
+        <Experience />
         <Projects />
         {/* <Resume /> */}
       </div>

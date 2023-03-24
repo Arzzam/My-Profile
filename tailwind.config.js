@@ -30,6 +30,7 @@ module.exports = {
         bgimage: "#185a9d",
         bgGra1: "#43cea2",
         bgGra2: "#185a9d",
+        light: "#aaa",
       },
     },
   },

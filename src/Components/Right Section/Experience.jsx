@@ -1,33 +1,45 @@
-import React from 'react'
+import React from "react";
+import Content from "./Content";
 
-const Experience =() => {
+const Experience = () => {
   return (
     <div className="text-base education">
-      <h4 className="w-20 sm:w-full">Experience</h4>
+      <h4 className="w-24 sm:w-full">Experience</h4>
       <Content>
-        <div className="text-base font-bold university">
-          Full stack Intern
+        <div className="m-0">
+          <span className="text-base font-bold title">
+            Full stack Developer - Intern
+          </span>
+          <span className="text-sm font-medium float-right text-light">
+            March 2023 - Present
+          </span>
         </div>
-        <div className="mb-2 italic font-bold college">
-          <a href="/" target="_blank">
+        <div className="mb-2 italic company">
+          <a href="https://www.xbi4.com/" target="_blank" className="font-bold">
             XBI4
           </a>
           <br />
-          Tenkasi, Tamil Nadu
+          <div>Tenkasi, Tamil Nadu</div>
         </div>
-        <div className="text-base branch">
-          <strong className="font-semibold">Branch:</strong> Computer Science
-          and Engineering
-        </div>
-        <div className="text-base study-abroad">
-          <strong className="font-semibold">CGPA: 8.21</strong> (upto 6th
-          Semester)
-        </div>
-        <div className="text-base grad-date">
-          <strong className="font-semibold">Expected Graduation:</strong> May
-          2023
+        <div className="p-0 m-0">
+          <ul className="pl-5 mt-2 text-sm">
+            <li className="">
+              Developing and maintaining in-house website primarily using
+              JavaScript, React, TailwindCSS and Node.
+            </li>
+            <li className="">
+              Working with 2 project and design team to innovate existing and
+              new experiences.
+            </li>
+            <li className="">
+              Collaborating with 2 interns and 2 developers to determine design,
+              app interaction, and enhancement.
+            </li>
+          </ul>
         </div>
       </Content>
     </div>
-  )
-}
+  );
+};
+
+export default Experience;

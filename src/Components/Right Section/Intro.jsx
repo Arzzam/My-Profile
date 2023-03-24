@@ -4,7 +4,7 @@ import Content from "./Content";
 const Intro = () => {
   return (
     <div className="introduction">
-      <h4 className="w-20 sm:w-full">Intro</h4>
+      <h4 className="w-24 sm:w-full">Intro</h4>
       <Content>
         <p className="mb-4 intro-p first-of-type:mt-0">
           I&#39;m currently in my final year studying Computer
