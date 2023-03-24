@@ -71,3 +71,13 @@ a {
   background-image: linear-gradient(to left top, #43cea2, #185a9d);
   opacity: 0.85;
 }
+
+ul.description {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+li::marker {
+  content: initial;
+}

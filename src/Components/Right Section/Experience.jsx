@@ -21,17 +21,17 @@ const Experience = () => {
           <br />
           <div>Tenkasi, Tamil Nadu</div>
         </div>
-        <div className="p-0 m-0">
-          <ul className="pl-5 mt-2 text-sm">
-            <li className="">
+        <div className="">
+          <ul className="p-0 m-0">
+            <li className="ml-5 text-sm list-disc">
               Developing and maintaining in-house website primarily using
               JavaScript, React, TailwindCSS and Node.
             </li>
-            <li className="">
+            <li className="ml-5 text-sm list-disc">
               Working with 2 project and design team to innovate existing and
               new experiences.
             </li>
-            <li className="">
+            <li className="ml-5 text-sm list-disc">
               Collaborating with 2 interns and 2 developers to determine design,
               app interaction, and enhancement.
             </li>
