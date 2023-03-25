@@ -1,5 +1,5 @@
 import React from "react";
-import Content from "./Content";
+import Content from "../Content/Content";
 
 const Education = () => {
   return (
@@ -10,7 +10,7 @@ const Education = () => {
             Anna University
         </div>
         <div className="mb-2 italic font-bold college">
-          <a href="https://scadengineering.ac.in/" target="_blank">
+          <a href="https://scadengineering.ac.in/">
             SCAD College of Engineering and Technology
           </a>
           <br />

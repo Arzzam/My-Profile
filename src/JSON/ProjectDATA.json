@@ -1,0 +1,42 @@
+[
+    {
+        "projectId": 1,
+        "title": "AuCalc",
+        "description": "A GPA and CGPA Calculator for Anna University",
+        "point1": "A web app that helps to calculate GPA and CGPA for Anna University students.",
+        "point2": "Mainly focus on Easy User Flow to make great User Experience.",
+        "point3": "Tech used: React, TailwindCSS, Material UI, Axios, Router, Python, Django, Pandas, PostgreSQL."
+    },
+    {
+        "projectId": 2,
+        "title": "AuCalc",
+        "description": "A GPA and CGPA Calculator for Anna University",
+        "point1": "A web app that helps to calculate GPA and CGPA for Anna University students.",
+        "point2": "Mainly focus on Easy User Flow to make great User Experience.",
+        "point3": "Tech used: React, TailwindCSS, Material UI, Axios, Router, Python, Django, Pandas, PostgreSQL."
+    },
+    {
+        "projectId": 3,
+        "title": "AuCalc",
+        "description": "A GPA and CGPA Calculator for Anna University",
+        "point1": "A web app that helps to calculate GPA and CGPA for Anna University students.",
+        "point2": "Mainly focus on Easy User Flow to make great User Experience.",
+        "point3": "Tech used: React, TailwindCSS, Material UI, Axios, Router, Python, Django, Pandas, PostgreSQL."
+    },
+    {
+        "projectId": 4,
+        "title": "AuCalc",
+        "description": "A GPA and CGPA Calculator for Anna University",
+        "point1": "A web app that helps to calculate GPA and CGPA for Anna University students.",
+        "point2": "Mainly focus on Easy User Flow to make great User Experience.",
+        "point3": "Tech used: React, TailwindCSS, Material UI, Axios, Router, Python, Django, Pandas, PostgreSQL."
+    },
+    {
+        "projectId": 5,
+        "title": "AuCalc",
+        "description": "A GPA and CGPA Calculator for Anna University",
+        "point1": "A web app that helps to calculate GPA and CGPA for Anna University students.",
+        "point2": "Mainly focus on Easy User Flow to make great User Experience.",
+        "point3": "Tech used: React, TailwindCSS, Material UI, Axios, Router, Python, Django, Pandas, PostgreSQL."
+    }
+]

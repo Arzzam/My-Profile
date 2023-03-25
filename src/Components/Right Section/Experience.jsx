@@ -1,9 +1,9 @@
 import React from "react";
-import Content from "./Content";
+import Content from "../Content/Content";
 
 const Experience = () => {
   return (
-    <div className="text-base education">
+    <div className="text-base experience">
       <h4 className="w-24 sm:w-full">Experience</h4>
       <Content>
         <div className="m-0">
@@ -15,7 +15,7 @@ const Experience = () => {
           </span>
         </div>
         <div className="mb-2 italic company">
-          <a href="https://www.xbi4.com/" target="_blank" className="font-bold">
+          <a href="https://www.xbi4.com/" className="font-bold">
             XBI4
           </a>
           <br />
